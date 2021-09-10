@@ -14,28 +14,32 @@ public class TestCalculadora {
     @Test
     public void testSumar(){
         escenario();
-        assertTrue(calculadora.sumar(2,2)==(2+2));
-        assertEquals(3.0,calculadora.sumar(2,1));
+//        assertTrue(calculadora.sumar(2,2)==(2+2));
+        assertEquals(3.0,calculadora.sumar(2,1), 0.001);
+        assertEquals(5.0,calculadora.sumar(3,2), 0.001);
     }
 
     @Test
     public void testRestar(){
         escenario();
-        assertTrue(calculadora.restar(2,2)==(2-2));
+//        assertTrue(calculadora.restar(2,2)==(2-2));
         assertEquals(3.0,calculadora.restar(5,2), 0.001);
+        assertEquals(1.0,calculadora.restar(3,2), 0.001);
     }
 
     @Test
     public void testMultiplicar(){
         escenario();
-        assertTrue(calculadora.multiplicar(2,2)==(2*2));
-        assertEquals(6.0,calculadora.multiplicar(2,3));
+//        assertTrue(calculadora.multiplicar(2,2)==(2*2));
+        assertEquals(6.0,calculadora.multiplicar(2,3), 0.001);
+        assertEquals(35.0,calculadora.multiplicar(7,5), 0.001);
     }
 
     @Test
     public void testDividir(){
         escenario();
-        assertTrue(calculadora.dividir(2,2)==(2/2));
-        assertEquals(5.0,calculadora.dividir(10,2));
+//        assertTrue(calculadora.dividir(2,2)==(2/2));
+        assertEquals(5.0,calculadora.dividir(10,2), 0.001);
+        assertEquals(2.0,calculadora.dividir(10,5), 0.001);
     }
 }
