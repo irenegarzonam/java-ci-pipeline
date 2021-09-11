@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="APACHE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../apache-ant-1.9.16-bin/apache-ant-1.9.16/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../apache-ant-1.9.16-bin/apache-ant-1.9.16/lib" recursive="false" />
+  </library>
+</component>
